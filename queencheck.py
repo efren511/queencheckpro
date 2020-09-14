@@ -182,7 +182,7 @@ def main():
                     #mostramos un error
                     print(colored("Ocurrio un error con la CC{}\n".format(cc), "red"))
     #leamos las cc vivas
-    with open("cc_vivas", "r") as f:
+    with open("cc_vivas.txt", "r") as f:
         vivas = f.read()
         print(colored(vivas, "green"))
 #creamos un punto de acceso
