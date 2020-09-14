@@ -1,0 +1,5 @@
+requests
+termcolor
+json
+uuid
+urllib3
